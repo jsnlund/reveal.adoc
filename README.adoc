@@ -1,24 +1,45 @@
-= README.adoc
+= reveal.adoc
+:author: Jason Lund
+Example of how to use asciidoctor-reveal.js and reveal.js while keeping a clean repository for your presentation.
 
-== bundle install
+== Asciidoctor / Ruby / Bundler
+
+Assuming you have Ruby installed and the gem *bundler*.
+
+=== bundle install
 bundle instructions on the Asciidoctor reveal.js site use the following command.
 
 [source]
 ----
-bundle config --local github.https true && bundle --path=.bundle/gems --binstubs=.bundle/.bin
+bundle config --local github.https true
+bundle --path=.bundle/gems --binstubs=.bundle/.bin
 ----
 
 But based on warnings in the command line when this command is executed, it should actually be of the following form.
 
 [source]
 ----
-bundle config --local github.https true && bundle config set --local path '.bundle/gems' && bundle binstubs --all
+bundle config --local github.https true
+bundle config set --local path '.bundle/gems'
+bundle binstubs --all
 ----
 
+== Asciidoctor.js / JavaScript (Node.js) / npm
 
-== submodulues
+Haven't tried this implementation yet.
+Need to setup a different branch for an example repo with that.
+
+== Initialize submodules
 
 [source]
 ----
 git submodule update --init
+----
+
+
+== Compile presentation
+
+[source]
+----
+bundle exec asciidoctor-revealjs PRESENTATION.adoc
 ----

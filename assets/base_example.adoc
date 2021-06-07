@@ -1,0 +1,16 @@
+== Slide One
+
+* Foo
+* Bar
+* World
+
+[.red.background]
+== Slide Two
+
+A Great Story
+
+[.notes]
+--
+* tell anecdote
+* make a point
+--
