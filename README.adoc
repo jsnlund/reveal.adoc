@@ -1,0 +1,24 @@
+= README.adoc
+
+== bundle install
+bundle instructions on the Asciidoctor reveal.js site use the following command.
+
+[source]
+----
+bundle config --local github.https true && bundle --path=.bundle/gems --binstubs=.bundle/.bin
+----
+
+But based on warnings in the command line when this command is executed, it should actually be of the following form.
+
+[source]
+----
+bundle config --local github.https true && bundle config set --local path '.bundle/gems' && bundle binstubs --all
+----
+
+
+== submodulues
+
+[source]
+----
+git submodule update --init
+----
