@@ -1,5 +1,6 @@
 = reveal.adoc
 :author: Jason Lund
+
 Example of how to use asciidoctor-reveal.js and reveal.js while keeping a clean repository for your presentation.
 
 == Asciidoctor / Ruby / Bundler
