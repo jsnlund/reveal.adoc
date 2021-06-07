@@ -1,0 +1,23 @@
+= Demo Presentation
+:revealjs_theme: solarized
+:customcss: custom.css
+
+== Slide One
+
+* Foo
+* Bar
+* World
+
+[.red.background]
+== Slide Two
+
+A Great Story
+
+[.notes]
+--
+* tell anecdote
+* make a point
+--
+
+include::content1.adoc[]
+include::content2.adoc[]

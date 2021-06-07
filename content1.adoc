@@ -1,0 +1,19 @@
+== External Content Slide
+
+* Fooz
+* Barz
+* Worldz
+
+[background-color="yellow"]
+=== External vert 1
+
+Hello darkness my old friend.
+
+=== External vert 2
+
+image::https://upload.wikimedia.org/wikipedia/commons/b/b2/Hausziege_04.jpg[background, size=cover]
+
+I will be with you till the end
+
+[%notitle,background-iframe="https://www.youtube.com/embed/LaApqL4QjH8?rel=0&start=3&enablejsapi=1&autoplay=1&loop=1&controls=0&modestbranding=1"]
+== a youtube video
