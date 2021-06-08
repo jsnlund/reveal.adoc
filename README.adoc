@@ -9,8 +9,8 @@ Example of how to use asciidoctor-reveal.js and reveal.js while keeping a clean 
 . ruby install
 . rubygems installed
 . bundler ruby gem installed
-. asciidoctor gem installed
-. asciidoctor-revealjs gem installed
+. asciidoctor gem installed ??
+. asciidoctor-revealjs gem installed ??
 
 Assuming you have Ruby installed and the gem *bundler*.
 
@@ -26,7 +26,7 @@ bundle --path=.bundle/gems --binstubs=.bundle/.bin
 But based on warnings in the command line when this command is executed, it is better to use the following (multiple commands separated by a semicolon can be executed on one line in powershell).
 
 [source]
-bundle config --local github.https true; bundle config set --local path '.bundle/gems': bundle binstubs --all; bundle
+bundle config --local github.https true; bundle config set --local path '.bundle/gems'; bundle binstubs --path '.bundle/.bin' --all; bundle
 
 
 == Asciidoctor.js / JavaScript (Node.js) / npm

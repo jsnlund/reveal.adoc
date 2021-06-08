@@ -2,6 +2,11 @@
 :revealjs_theme: solarized
 :customcss: assets/custom.css
 
+== local image
+
+image::assets/doge.jpg[]
+
 include::assets/base_example.adoc[]
 include::assets/content1.adoc[]
 include::assets/content2.adoc[]
+include::assets/content3.adoc[]
