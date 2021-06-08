@@ -5,6 +5,13 @@ Example of how to use asciidoctor-reveal.js and reveal.js while keeping a clean 
 
 == Asciidoctor / Ruby / Bundler
 
+=== Pre-requisites
+. ruby install
+. rubygems installed
+. bundler ruby gem installed
+. asciidoctor gem installed
+. asciidoctor-revealjs gem installed
+
 Assuming you have Ruby installed and the gem *bundler*.
 
 === bundle install
