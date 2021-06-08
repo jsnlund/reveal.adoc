@@ -23,10 +23,13 @@ bundle config --local github.https true
 [source]
 bundle --path=.bundle/gems --binstubs=.bundle/.bin
 
-But based on warnings in the command line when this command is executed, it is better to use the following (multiple commands separated by a semicolon can be executed on one line in powershell).
 
-[source]
-bundle config --local github.https true; bundle config set --local path '.bundle/gems'; bundle binstubs --path '.bundle/.bin' --all; bundle
+// :WARNING: the following may not work, to be confirmed.
+
+// But based on warnings in the command line when this command is executed, it is better to use the following (multiple commands separated by a semicolon can be executed on one line in powershell).
+
+// [source]
+// bundle config --local github.https true; bundle config set --local path '.bundle/gems'; bundle binstubs --path '.bundle/.bin' --all; bundle
 
 
 == Asciidoctor.js / JavaScript (Node.js) / npm
@@ -48,3 +51,9 @@ git submodule update --init
 ----
 bundle exec asciidoctor-revealjs PRESENTATION.adoc
 ----
+
+== Warning on images
+
+All image and file path includes must be relative to the main presentation file.
+So do not include and "image::" with a path relative to a sub-content file as the link will not work.
+Always make the include paths relative to the main presentation file.
