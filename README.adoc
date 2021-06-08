@@ -15,7 +15,7 @@ Example of how to use asciidoctor-reveal.js and reveal.js while keeping a clean 
 Assuming you have Ruby installed and the gem *bundler*.
 
 === bundle install
-bundle instructions on the Asciidoctor reveal.js site use the following command.
+bundle instructions on the Asciidoctor reveal.js site use the following commands.
 
 [source]
 bundle config --local github.https true
@@ -28,8 +28,6 @@ But based on warnings in the command line when this command is executed, it is b
 [source]
 bundle config --local github.https true; bundle config set --local path '.bundle/gems': bundle binstubs --all; bundle
 
-[source]
-bundle --binstubs=.bundle/.bin
 
 == Asciidoctor.js / JavaScript (Node.js) / npm
 
